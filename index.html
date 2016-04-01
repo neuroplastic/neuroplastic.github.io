@@ -159,14 +159,37 @@ a:hover {
 
 .epigraph {
   font-style: italic;
-  width: 80%;
-      line-height: 2rem;
+      line-height: 1rem;
     margin-top: 1.4rem;
     margin-bottom: 1.4rem;
     padding-right: 0;
     vertical-align: baseline;
         font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
+
+/* Chapter Epigraphs */
+div.epigraph { margin: 5em 0; }
+
+div.epigraph > blockquote { margin-top: 3em;
+                            margin-bottom: 3em; }
+
+div.epigraph > blockquote, div.epigraph > blockquote > p { font-style: italic;}
+
+div.epigraph > blockquote > footer { font-style: normal; }
+
+div.epigraph > blockquote > footer > cite { font-style: italic; }
+
+/* end chapter epigraphs styles */
+
+blockquote { font-size: 1.4rem; }
+
+blockquote p { width: 50%; }
+
+blockquote footer { width: 50%;
+                    font-size: 1.1rem;
+                    text-align: left; }
+
+p#berrygraph { font-size: 1rem;  }
 </style>
 
   </head>
@@ -179,7 +202,29 @@ a:hover {
 <h1 class="p-name" property="schema:name"><a href="http://mylesbyrne.com/#i" title="Myles Byrne’s WebID">Myles Byrne</a></h1>
 <div class="e-content" id="wrapper">
 
-<br/>
+<blockquote class="epigraph" cite="https://en.wikipedia.org/wiki/Wendell_Berry">
+  <p id="berrygraph" >
+Heavenly Muse, Spirit who brooded on<br>
+the world and raised it shapely out of nothing,<br>
+Touch my lips with fire and burn away<br>
+All dross of speech, so that I keep in mind<br>
+The truth and end to which my words now move<br>
+In hope. Keep my mind within that Mind<br>
+Of which it is a part, whose wholeness is<br>
+The hope of sense in what I tell. And though<br>
+I go among the scatterings of that sense,<br>
+The members of its worldly body broken,<br>
+Rule my sight by vision of the parts<br>
+Rejoined. And in my exile’s journey far<br>
+From home, be with me, so I may return.<br>
+  </p>
+  <footer>
+    <a href="http://daringfireball.net/projects/markdown/syntax#blockquote">
+      - Wendell Berry
+    </a>
+  </footer>
+</blockquote>
+
 
 <section id="streams">
     <dl>
