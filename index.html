@@ -1,92 +1,20 @@
-<!doctype html>
-<!--
-    ...     ..      ..                        ..               .x+=:.     
-  x*8888x.:*8888: -"888:     ..         x .d88"               z`    ^%    
- X   48888X `8888H  8888    @L           5888R                   .   <k   
-X8x.  8888X  8888X  !888>  9888i   .dL   '888R        .u       .@8Ned8"   
-X8888 X8888  88888   "*8%- `Y888k:*888.   888R     ud8888.   .@^%8888"    
-'*888!X8888> X8888  xH8>     888E  888I   888R   :888'8888. x88:  `)8b.   
-  `?8 `8888  X888X X888>     888E  888I   888R   d888 '88%" 8888N=*8888   
-  -^  '888"  X888  8888>     888E  888I   888R   8888.+"     %8"    R88   
-   dx '88~x. !88~  8888>     888E  888I   888R   8888L        @8Wou 9%    
- .8888Xf.888x:!    X888X.:  x888N><888'  .888B . '8888c. .+ .888888P`     
-:""888":~"888"     `888*"    "88"  888   ^*888%   "88888%   `   ^"F       
-    "~'    "~        ""            88F     "%       "YP'                  
-                                  98"                                     
-                                ./"                                       
-                               ~`                                         
--->
-<!-- CREDITS
-Linked Data: SirTimBL, CSARVEN and the SOLID Krewe
-CSS: https://edwardtufte.github.io/tufte-css/
-ORCID: MFenner, GThorrison
-RSS: Dave Winer
-...
--->
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Myles Byrne</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="I am Myles Gabriel Byrne and this site represents my identity on the web." name="description" />
-       
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>solid_research</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style id="mkstylesheet">
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*{box-sizing:border-box}input,select,textarea,button{font:13px/1.4 Helvetica,arial,nimbussansl,liberationsans,freesans,clean,sans-serif,"Segoe UI Emoji","Segoe UI Symbol"}body{font:13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";color:#333;background-color:#fff}a{color:#4078c0;text-decoration:none}a:hover,a:active{text-decoration:underline}hr,.rule{height:0;margin:15px 0;overflow:hidden;background:transparent;border:0;border-bottom:1px solid #ddd}hr:before,.rule:before{display:table;content:""}hr:after,.rule:after{display:table;clear:both;content:""}h1,h2,h3,h4,h5,h6{margin-top:15px;margin-bottom:15px;line-height:1.1}h1{font-size:30px}h2{font-size:21px}h3{font-size:16px}h4{font-size:14px}h5{font-size:12px}h6{font-size:11px}small{font-size:90%}blockquote{margin:0}ul,ol{padding:0;margin-top:0;margin-bottom:0}ol ol,ul ol{list-style-type:lower-roman}ul ul ol,ul ol ol,ol ul ol,ol ol ol{list-style-type:lower-alpha}dd{margin-left:0}tt,code{font-family:Consolas, "Liberation Mono", Menlo, Courier, monospace;font-size:12px}pre{margin-top:0;margin-bottom:0;font:12px Consolas,"Liberation Mono",Menlo,Courier,monospace}html,body{color:black}#wrapper{font:16px helvetica,arial,freesans,clean,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.6;padding:3px;background:#fff;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border:solid 1px #dddddd !important;color:#333}p{margin:1em 0}a{color:#4183c4;text-decoration:none}#wrapper{background-color:#fff;padding:30px;margin:15px;font-size:16px;line-height:1.6}#wrapper>*:first-child{margin-top:0 !important}#wrapper>*:last-child{margin-bottom:0 !important}@media screen{#wrapper{border:solid 1px #ddd}}h1,h2,h3,h4,h5,h6{position:relative;margin-top:1em;margin-bottom:16px;font-weight:700;line-height:1.4;color:#333}h1{padding-bottom:.3em;font-size:2.25em;line-height:1.2;border-bottom:1px solid #eee}h2{padding-bottom:0.3em;font-size:1.75em;line-height:1.225;border-bottom:1px solid #eee}h3{font-size:1.5em;line-height:1.43}h4{font-size:1.25em}h5{font-size:1em}h6{color:#777;font-size:1em}p,blockquote,ul,ol,dl,table,pre{margin-top:0;margin-bottom:16px}hr{height:4px;padding:0;margin:16px 0;background-color:#e7e7e7;border:0 none}ul,ol{padding-left:2em}ul.no-list,ol.no-list{padding:0;list-style-type:none}ul ul,ul ol{margin-top:0;margin-bottom:0}ol ol,ol ul{margin-top:0;margin-bottom:0}li>p{margin-top:16px}dl{padding:0}dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}dl dd{padding:0 16px;margin-bottom:16px}blockquote{padding:0 15px;margin-left:0;color:#777;border-left:4px solid #ddd}blockquote>:first-child{margin-top:0}blockquote>:last-child{margin-bottom:0}table{display:block;width:100%;overflow:auto}table th{font-weight:700;padding:6px 13px;border:1px solid #ddd}table td{padding:6px 13px;border:1px solid #ddd}table tr{background-color:#fff;border-top:1px solid #ccc}table tr:nth-child(2n){background-color:#f8f8f8}img{max-width:100%;-moz-box-sizing:border-box;box-sizing:border-box}span.frame{display:block;overflow:hidden}span.frame>span{display:block;float:left;width:auto;padding:7px;margin:13px 0 0;overflow:hidden;border:1px solid #ddd}span.frame span img{display:block;float:left}span.frame span span{display:block;padding:5px 0 0;clear:both;color:#333}span.align-center{display:block;overflow:hidden;clear:both}span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}span.align-center span img{margin:0 auto;text-align:center}span.align-right{display:block;overflow:hidden;clear:both}span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}span.align-right span img{margin:0;text-align:right}span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}span.float-left span{margin:13px 0 0}span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}code,tt{padding:0;padding-top:.2em;padding-bottom:.2em;margin:0;font-size:85%;background-color:rgba(0,0,0,0.04);border-radius:3px}code:before,code:after{letter-spacing:-.2em;content:"\00a0"}tt:before,tt:after{letter-spacing:-.2em;content:"\00a0"}code br,tt br{display:none}del code{text-decoration:inherit;vertical-align:text-top}pre>code{padding:0;margin:0;font-size:100%;white-space:pre;background:transparent;border:0}.highlight{margin-bottom:16px}.highlight pre{padding:16px;margin-bottom:0;overflow:auto;font-size:85%;line-height:1.45;background-color:#f7f7f7;border-radius:3px}pre{padding:16px;margin-bottom:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f7f7f7;border-radius:3px;word-wrap:normal}pre code,pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}pre code:before,pre code:after{content:normal}pre tt:before,pre tt:after{content:normal}.poetry pre{font-family:Georgia, Garamond, serif !important;font-style:italic;font-size:110% !important;line-height:1.6em;display:block;margin-left:1em}.poetry pre code{font-family:Georgia, Garamond, serif !important;word-break:break-all;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;white-space:pre-wrap}sup,sub,a.footnote{font-size:1.4ex;height:0;line-height:1;vertical-align:super;position:relative}sub{vertical-align:sub;top:-1px}@media print{body{background:#fff}img,table,figure{page-break-inside:avoid}#wrapper{background:#fff;border:none !important;font-size:12px}pre code{overflow:visible}}@media screen{body.inverted{color:#eee !important;border-color:#555;box-shadow:none}.inverted #wrapper,.inverted hr,.inverted p,.inverted td,.inverted li,.inverted h1,.inverted h2,.inverted h3,.inverted h4,.inverted h5,.inverted h6,.inverted th,.inverted .math,.inverted caption,.inverted dd,.inverted dt,.inverted blockquote{color:#eee !important;border-color:#555;box-shadow:none}.inverted td,.inverted th{background:#333}.inverted pre,.inverted code,.inverted tt{background:#eeeeee !important;color:#111}.inverted h2{border-color:#555555}.inverted hr{border-color:#777;border-width:1px !important}::selection{background:rgba(157,193,200,0.5)}h1::selection{background-color:rgba(45,156,208,0.3)}h2::selection{background-color:rgba(90,182,224,0.3)}h3::selection,h4::selection,h5::selection,h6::selection,li::selection,ol::selection{background-color:rgba(133,201,232,0.3)}code::selection{background-color:rgba(0,0,0,0.7);color:#eeeeee}code span::selection{background-color:rgba(0,0,0,0.7) !important;color:#eeeeee !important}a::selection{background-color:rgba(255,230,102,0.2)}.inverted a::selection{background-color:rgba(255,230,102,0.6)}td::selection,th::selection,caption::selection{background-color:rgba(180,237,95,0.5)}.inverted{background:#0b2531;background:#252a2a}.inverted #wrapper{background:#252a2a}.inverted a{color:#acd1d5}}.highlight{background:#fff}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k,.highlight .o{font-weight:700}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:700}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:700;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:700}.highlight .gu{color:purple;font-weight:700}.highlight .gt{color:#a00}.highlight .kc,.highlight .kd,.highlight .kn,.highlight .kp,.highlight .kr{font-weight:700}.highlight .kt{color:#458;font-weight:700}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .n{color:#333}.highlight .na{color:teal}.highlight .nb{color:#0086b3}.highlight .nc{color:#458;font-weight:700}.highlight .no{color:teal}.highlight .ni{color:purple}.highlight .ne,.highlight .nf{color:#900;font-weight:700}.highlight .nn{color:#555}.highlight .nt{color:navy}.highlight .nv{color:teal}.highlight .ow{font-weight:700}.highlight .w{color:#bbb}.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo{color:#099}.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .se,.highlight .sh,.highlight .si,.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc,.highlight .vg,.highlight .vi{color:teal}.highlight .il{color:#099}.highlight .gc{color:#999;background-color:#EAF2F5}.type-csharp .highlight .k,.type-csharp .highlight .kt{color:blue}.type-csharp .highlight .nf{color:#000;font-weight:400}.type-csharp .highlight .nc{color:#2b91af}.type-csharp .highlight .nn{color:#000}.type-csharp .highlight .s,.type-csharp .highlight .sc{color:#a31515}.type-csharp .highlight .k,.type-csharp .highlight .kt{color:#00F}.type-csharp .highlight .nf{color:#000;font-weight:normal}.type-csharp .highlight .nc{color:#2B91AF}.type-csharp .highlight .nn{color:#000}.type-csharp .highlight .s,.type-csharp .highlight .sc{color:#A31515}body.dark #wrapper{background:transparent !important;box-shadow:none !important}
+#mkreplaced-toc{list-style-position:inside;padding:0;margin:0 0 0 1rem;list-style-type:none}#mkreplaced-toc li::before{content:''}#mkreplaced-toc li{font-size:1rem;line-height:1.25;font-weight:normal}#mkreplaced-toc li ul{font-size:1.3rem;font-weight:300;padding:.5rem 0;margin:0 0 0 1rem}#mkreplaced-toc li.missing{list-style-type:none !important}#mkreplaced-toc.max-1 ul,#mkreplaced-toc.max1 ul{display:none}#mkreplaced-toc.max-2 ul ul,#mkreplaced-toc.max2 ul ul{display:none}#mkreplaced-toc.max-3 ul ul ul,#mkreplaced-toc.max3 ul ul ul{display:none}#mkreplaced-toc.max-4 ul ul ul ul,#mkreplaced-toc.max4 ul ul ul ul{display:none}#mkreplaced-toc.max-5 ul ul ul ul ul,#mkreplaced-toc.max5 ul ul ul ul ul{display:none}.rtl{direction:rtl;text-align:right}@media print{body{background:white;line-height:1.4}html,body,#wrapper{max-width:100%;width:100%;-webkit-text-size-adjust:none;-webkit-perspective:none !important;box-sizing:border-box;width:auto;border:0;margin:0;padding:0;float:none;-moz-box-shadow:none !important;-webkit-box-shadow:none !important;box-shadow:none !important}mark{background:transparent !important}h1,h2,h3,h4,h5,h6{page-break-after:avoid}p,h2,h3{orphans:3;widows:3}section{page-break-before:avoid}pre>code{white-space:pre;word-break:break-word}#generated-toc,#firstdiff,#toc-title,#mkdocumentprogress,#mkincludechart,#mkprogressbar1,#mkprogressbar2,.mkscrollmeter,#alllinks,.popup{display:none !important}.suppressprintlinks a{color:inherit !important;text-decoration:none !important;border-bottom:none !important;cursor:default !important}.hrefafterlinktext #wrapper a:link:after,.hrefafterlinktext #wrapper a:visited:after{content:" (" attr(href) ") ";font-size:90%;opacity:0.9}.nocodebreak pre{page-break-inside:avoid}img,table,figure{page-break-inside:avoid}.breakfootnotes .footnotes{page-break-before:always}.breakfootnotes .footnotes hr{display:none}#mktoctitle{display:block}#print-title{display:block;border-bottom:solid 1px #666}#wrapper pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}#wrapper #generated-toc-clone,#wrapper #mkreplaced-toc{display:block}.task-list .task-list-item{list-style-type:none !important}.task-list .gh-complete.task-list-item .task-list-item-checkbox:before{content:'\2713';background:#838387}.task-list .task-list-item-checkbox{-webkit-appearance:none;position:relative}.task-list .task-list-item-checkbox:before{content:' ';border:solid 1px #aaa;width:1em;height:1em;display:block;border-radius:2px;left:-20px;top:-.75em;color:white;font-weight:bold;line-height:1;text-align:center;position:absolute}}
+#wrapper #generated-toc-clone,#wrapper #mkreplaced-toc,#wrapper #generated-toc-clone ul,#wrapper #mkreplaced-toc ul{list-style-position:inside}#wrapper #generated-toc-clone li.missing,#wrapper #mkreplaced-toc li.missing{list-style-type: none!important}#wrapper #generated-toc-clone,#wrapper #mkreplaced-toc{list-style-type: none}#wrapper #generated-toc-clone>li>ul,#wrapper #mkreplaced-toc>li>ul {list-style-type: none}#wrapper #generated-toc-clone>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul{list-style-type: none}#wrapper #generated-toc-clone>li>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul>li>ul{list-style-type: none}#wrapper #generated-toc-clone>li>ul>li>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul>li>ul>li>ul{list-style-type: none}#wrapper #generated-toc-clone>li>ul>li>ul>li>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul>li>ul>li>ul>li>ul{list-style-type: none}
+</style>
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    
-
-    <link href="stylesheets/tufte.css" media="all" rel="stylesheet" title="mbyrne" />
-    <!--link href="https://neuroplastic.databox.me/Public/mb_favicon/favicon.ico" rel="shortcut icon" type="image/x-icon" /-->
- 
-<!-- RSS scripts -->
-  <!-- Dave Winer Section TODO: integrate Winer's RSS
-  <link href="http://mb/atom" rel="alternate" title="Atom 1.0 feed" type="application/atom+xml" />
-  <link href="http://mb/rss" rel="alternate" title="RSS 2.0 feed" type="application/rss+xml" />
-  <link href="http://mb/webmention" rel="webmention" />
-  -->
-
- <!-- Dokieli stylesheets https://dokie.li >
-        <link href="https://dokie.li/media/css/lncs.css" media="all" rel="stylesheet alternate" title="LNCS" />
-        <link href="https://dokie.li/media/css/acm.css" media="all" rel="stylesheet alternate" title="ACM" />
-        <link href="https://www.w3.org/StyleSheets/TR/W3C-REC.css" media="all" rel="stylesheet alternate" title="W3C-REC" />
-        <link href="https://www.w3.org/DesignIssues/di.css" media="all" rel="stylesheet alternate" title="DesignIssues" />
-        <link href="https://dokie.li/media/css/shower.css" media="all" rel="stylesheet alternate" title="Shower" />
-        <link href="https://neuroplastic.databox.me/Public/mb_css/index.css" media="all" rel="stylesheet alternate" title="CSarven" />
-      <!-- TufteCSS >
-        <link href="https://neuroplastic.databox.me/Public/mb_css/tufte.css" media="all" rel="stylesheet alternate" title="Tufte" / --> 
-
-
- <!-- Dokieli scripts https://dokie.li >        
-        <link href="https://dokie.li/media/css/do.css" media="all" rel="stylesheet" />
-        <style>@media print { #related-articles, #related-library, #i-write { display:none; } }</style>
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" media="all" rel="stylesheet" />
-        <link href="https://dokie.li/media/css/editor.css" media="all" rel="stylesheet" />
-        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-        <script src="https://dokie.li/scripts/simplerdf.js"></script>
-        <script src="https://dokie.li/scripts/html.sortable.min.js"></script>
-        <script src="https://dokie.li/scripts/shower.min.js"></script>
-        <script src="https://dokie.li/scripts/medium-editor.min.js"></script>
-        <script src="https://dokie.li/scripts/medium-editor-tables.min.js"></script>
-        <script src="https://dokie.li/scripts/do.js"></script-->
-
-        <!-- Indieweb scripts https://indiewebcamp.com -->
-        <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
-
-  <!-- Google Fonts loaded here -->
-  <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
-
-  <!-- Hypothes.is -->
-  <!-- script async defer src="//hypothes.is/embed.js"></script -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/3.1.0/markdown-it.js"></script>
-
-<!-- script src="article.js"></script -->
+<style id="mkprintstyles">@media print{
+html,body,#wrapper{font-size:10pt}
+}
+</style>
 
 <style>
 body { 
@@ -96,401 +24,169 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+</head>
+<body class="normal">
+  <div id="wrapper">
+      <table style="border: none;">
+<tr style="border: none; width: 100%;">
+<td style="border: none; width: 550px;">
+<a href="https://neuroplastic.dev.inrupt.net/profile/card#me">Myles Byrne</a> - <a href="mailto:bohmbohm@gmail.com">bohmbohm@gmail.com</a><br/>
+Helsinki &amp; Turku, 2021&#8211;01&#8211;21<br/>
+</td>
+<td style="border: none;  width: 550px; text-align: right;"><a href="https://github.com/neuroplastic/">github</a> | <a href="http://orcid.org/0000-0002-8992-2452">orcid</a> | <a href="https://scholar.google.co.nz/citations?hl=en&amp;user=ndSuI2gAAAAJ&amp;view_op=list_works">google scholar</a><br/>
+<a href="https://docs.google.com/document/d/1JLae6VeDLovmsxL8ykucwwiYbgCw9v6UNf-EQ8nH6GQ/edit?usp=sharing">FSH proposal</a>
+ </td>
+ </tr>
+</table>
 
-#wrapper {
-  width: 85%;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
-}
-
-li a {
-    display: inline;
-    text-align: center;
-    padding: 4px 6px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: silver;
-    color: white;
-}
-
-a:hover {
-    background-color: silver;
-    color: white;
-}
-
-.container {
-  display: -webkit-flex;
-  display: flex;
-}
-.initial {
-  -webkit-flex: initial;
-          flex: initial;
-  width: 200px;
-  min-width: 100px;
-}
-.none {
-  -webkit-flex: none;
-          flex: none;
-  width: 200px;
-}
-.flex1 {
-  -webkit-flex: 1;
-          flex: 1;
-}
-.flex2 {
-  -webkit-flex: 2;
-          flex: 2;
-}
-
-.go_topic {
-  position: relative;
-  left: -7px;
-}
-
-.epigraph {
-  font-style: italic;
-      line-height: 1rem;
-    margin-top: 1.4rem;
-    margin-bottom: 1.4rem;
-    padding-right: 0;
-    vertical-align: baseline;
-        font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-}
-
-/* Chapter Epigraphs */
-div.epigraph { margin: 5em 0; }
-
-div.epigraph > blockquote { margin-top: 3em;
-                            margin-bottom: 3em; }
-
-div.epigraph > blockquote, div.epigraph > blockquote > p { font-style: italic;}
-
-div.epigraph > blockquote > footer { font-style: normal; }
-
-div.epigraph > blockquote > footer > cite { font-style: italic; }
-
-/* end chapter epigraphs styles */
-
-blockquote { font-size: 1.4rem; }
-
-blockquote p { width: 50%; }
-
-blockquote footer { width: 50%;
-                    font-size: 1.1rem;
-                    text-align: left; }
-
-p#berrygraph { font-size: 1rem;  }
-</style>
-
-  </head>
-<body about="[this:]" id="home" typeof="foaf:PersonalProfileDocument" class="h-feed" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ vcard: http://www.w3.org/2006/vcard/ns# pimspace: http://www.w3.org/ns/pim/space# cc: http://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# schema: https://schema.org/ sioc: http://rdfs.org/sioc/ns# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# cal: http://www.w3.org/2002/12/cal/ical# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# org: http://www.w3.org/ns/org# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: http://www.w3.org/ns/activitystreams# sterms: http://www.w3.org/ns/solid/terms# this: http://neuroplastic.github.io/">
-    <span rel="foaf:primaryTopic" resource="http://neuroplastic.github.io/#i"></span> 
-
-
-<main>
-<article id="me">
-  
-<h1 class="p-name" property="schema:name"><a href="https://neuroplastic.github.io/#i" title="Myles Byrne’s WebID"></a></h1>
-<!--blockquote class="epigraph" cite="https://en.wikipedia.org/wiki/William_Blake">
- <p id="berrygraph">
-  'A fool that has persisted in his folly' - Wm Blake
-</p-->
-  <!--footer>
-    <a href="https://en.wikipedia.org/wiki/William_Blake">
-      - William Blake
-    </a>
-  </footer>
-</blockquote-->
-
-<h1><a href="https://en.wikipedia.org/wiki/Myles_Byrne" target="_blank">Myles Byrne</a></h1>
-<a style="position: relative; top: -20px;"href="https://neuroplastic.dev.inrupt.net/profile/card#me">webID</a> | <a href="https://github.com/neuroplastic/">github</a> | <a href="http://orcid.org/0000-0002-8992-2452">orcid</a> | <a href="https://scholar.google.co.nz/citations?hl=en&amp;user=ndSuI2gAAAAJ&amp;view_op=list_works">google scholar</a>
-
-<br/><br/>
-
-<section id="photography">
-    <dl>
-        <dd>
-<blockquote>
-<p>I am an independent researcher and software developer, integrating <a href="https://neuroplastic.github.io/cogsci/">cognitive science</a>, <a href="https://neuroplastic.github.io/sociobio/">sociobiology</a>, <a href="https://neuroplastic.github.io/hyperweb/">hyperweb development</a>, and <a href="https://neuroplastic.github.io/gov/">political economy</a>. My long-range goals are:</p>
-
+<p><br/>
+<center><h3>Research Summary</h3></center>
+<br/></p>
+<ol style="list-style-type: lower-roman;">
+<li> <strong>Personal Servers for Health Citizens</strong> - 2012&#8211;13</li>
 <ul>
-<li>- to develop the internet and web as a system that translates the adaptational mechanisms of evolutionary biology to planetary scale</li>
-<li>- to develop the internet and web as a system that enables continual integrated adaptations across local-global scales</li>
-<li>- to model humanity not in the terms of selfish genes, but as an evolutionary mechanism designed to both trigger and manage the transition of the planetary biome to self-managing homeostasis, through first causing and then adaptating to climate change</li>
-</ul>
-
-<p>In the mid-term, this means:</p>
-
+<li> A platform for healthcare reform and the democratization of
+biomedicine
+</li>
+<li> <em>Conception</em>
 <ul>
-<li>- developing the open web as a critical component enabling emergent adaptation to climate change</li>
-<li>- providing humans with the legal status and functional capabilities of autonomous agents in a formally open web</li>
-</ul>
-
-<p>In the near-term, this means:</p>
-
+<li> <em>Working on projects using personal medical data in Finland, i became involved in several Finnish projects to establish personal healthdata vaults, such as <a href="http://taltioni.fi/">Taltioni</a> and <a href="http://www.digitalhealthrevolution.fi/">Digital Health Revolution</a>. Each of these attempts were worthwhile experiments, yet each ran into multiple roadblocks. I responded by:</em></li>
 <ul>
-<li>- accelerating the widespread adoption of the <a href="https://solidproject.org">Solid platform</a> over commercial silos for personal and organisational data</li>
+<li> <em>prototyping personal servers as a way to route around the roadblocks, building on the work of <a href="https://unhosted.org/">Michiel de Jong</a> and others</em></li>
+<li> <em>promoting personal servers for use within Finnish personalised medicine pilots</em></li>
 </ul>
-</blockquote>
+</ul>
+<li> <a href="https://www.dropbox.com/s/moq835dgih3r0go/Personal_Servers_pilot.pdf?dl=0">project summary PDF</a> </li>
+</ul><br/>
 
-<p><strong>Current projects:</strong></p>
-<ul style="list-style-type: lower-roman;">
-<li> <strong><a href="https://github.com/P2PSci/P2PSci">P2P Science</a></strong>:
-<li> a set of four applications for:</li>
+<p><li> <strong><a href="https://github.com/P2PSci/P2PSci">P2P Science</a></strong> - 2014-ongoing
 <ul>
-<li> decentralising scientific communications at the server</li>
-<li> re-integrating scientific communications at the client</li>
-<li>thin-slicing scientific communications on mobile</li>
-</ul>
-<li> <strong><a href="https://github.com/social-mesh/social-mesh">Finnish Social Mesh</a></strong>:
-<li> nationalised platform cooperativism through combining personal datastores with meshnets</li>
-<li> <strong><a href="https://github.com/peergen/peergen">Peergen</a></strong>:
-<li> a system of personal datastores that makes the individual the primary researcher over their own healthdata</li>
-<li> in biomedical terms, Peergen is a system for N-of&#8211;1 personal -omics at scale, in which feedback loops between data, interpretation, and patient are not avoided, but embraced</li>
-<li> <strong><a href="https://github.com/podzero/podzero">Pod Zero</a></strong>:
+<li>P2P Science is a set of four applications, currently in beta:</li>
 <ul>
-<li> a personal data vault architecture interpreting users as autonomous agents in a formally open web</li>
-</ul>
-<li> <strong><a href="https://github.com/Umw3lt/umwelt">Umwelt</a></strong>:
+<li> <strong>Peer Servers</strong></li>
 <ul>
-<li> a ladder of scientific communications, including VR and AR, for highly integrated remote-working research cultures</li>
+<li> <em>decentralising scientific communications at the server</em> - <a href="https://www.dropbox.com/s/2fu4kucprmq4xqs/p2psci.I.0.1.pdf?dl=0">PDF</a> </li>
+<li> originally drawing on the work of p2p developers such as Michiel de Jong and <a href="https://scuttlebutt.nz/">Dominic Tarr</a>, then switching to Solid</li>
 </ul>
-<li> <strong><a href="https://github.com/neuroplastic/Finnish_Solid_Hub">Finnish Solid Hub</a></strong>:
+<li> <strong>Personal websites as queryable research data</strong></li>
 <ul>
-<li> a proposed project to provide:</li>
+<li> based on the work of <a href="https://ruben.verborgh.org/">Ruben Verborgh</a>, pre-Solid</li>
+</ul>
+<li> <strong>Cognoscope</strong> web app</li>
 <ul>
-<li> Solid services for Finnish institutions and organisations</li>
-<li> Solid education in Finland and the Nordics</li>
-<li> and to develop Solid services for other countries hosted in Finland</li>
+<li> <em>re-integrating scientific communications at the client</em> (RDF-based twitter for science) - <a href="https://www.dropbox.com/s/gcxo4dkgk47p74e/Twitter_for_Science.pdf?dl=0">PDF</a> </li>
+</ul>
+<li> <strong>Alethiometer</strong> mobile web app</li>
+<ul>
+<li> <em>thin-slicing scientific communications on mobile</em> (RDF-based Tinder for Science)</li>
 </ul>
 </ul>
+<li> <em>Conception</em>
+<ul>
+<li> <em>Having worked intensely with biologists for five years, i saw that the organisation of the scientific enterprise was seizing up: competition for high-impact publication, problems with h-index and peer review, and rich-get-richer effects in distribution of funds, were combining with replication problems, administrative and PhD overproduction, corporatisation of the academy, and the rise of in-silico science.</em></li>
+<li> <em>The director and co-founder of the Institute for Molecular Medicine, Olli Kallioniemi. began a dialogue with me about these issues, from his perspective. He explained his frustrations in getting filtered overviews of research activities at national, Nordic, and global scales.</em></li>
+<li> <em>This dialogue developed into a project to re-envision twitter and the Tinder dating app for science. I took previous work on personal servers for healthdata, and repurposed it for researchers (PIs and their students and postdocs). The resulting work was first named Nobler, then P2P Science.</em>
 </ul>
+<li> This work extended Stephen Friend et al.&#8217;s <a href="https://cancerdiscovery.aacrjournals.org/content/4/11/1265">Social Interactomes for Enabling Research Communities</a>, conducting several experiments between Helsinki, Stockholm, and Uppsala, in collaboration with <a href="https://www.scilifelab.se/">SciLifeLab</a>.</li>
+<li> This work extended foundational machine learning work done in Finland by the <a href="https://en.wikipedia.org/wiki/Teuvo_Kohonen">Kohonen</a> lab, in collaboration with the <a href="https://www.helsinki.fi/en/researchgroups/centre-for-consumer-society-research">Centre for Consumer Society Research</a> at UHel</li>
+<ul>
+<li> <a href="https://www.dropbox.com/s/z5ob9ha47zwpnov/Nobler_scientometric_SOM_6.pdf?dl=0">presentation re. use of ML for research analytics</a>
+</ul>
+<li> This work extended and was heavily inspired by the work of:</li>
+<ul>
+<li> Ruben Verborgh and colleagues (pre-Solid)</li>
+<li> P2P web teams: Secure Scuttlebutt, dat, beaker, others</li>
+</ul>
+<li> <a href="https://www.dropbox.com/s/7ldbrw7zp92qlqq/SciLife_WCMM_P2PSci.pdf?dl=0">1-page summary</a> </li>
+</ul><br/></p>
+<li> <strong><a href="https://github.com/social-mesh/social-mesh">Finnish Social Mesh</a></strong> - 2014-ongoing </li>
+<ul>
+<li>Finnish Social Mesh uses Solid and Consolid as a system of platform cooperativism, in which:</li>
+<ul>
+<li>Solid personal data vaults enable the open web to function as <strong><em>a utility layer for general platform cooperativism</em></strong></li>
+<li> Solid CSS, ESS, and Consolid servers are <strong><em>physically located in the communities they serve, and integrated into local meshnets</em></strong>, forming a platform cooperativism utility layer with the resilience of the original ARPANET - i.e. the platform functions whether running locally in only one town (e.g. <a href="https://en.wikipedia.org/wiki/W%C3%B6rgl#The_W%C3%B6rgl_Experiment">the Wörgl experiment</a>), nationally, or internationally, and can re-seed from one source</li>
+<li> This utility layer is a state service, <strong><em>integrating the national internet from local private meshnets</em></strong></li>
+<ul>
+<li>This work anticipated, and now follows, work on Solid for public transportation and geodata, and for civic data as in Flanders and the UK</li>
+</ul>
+<li> <em>Conception</em></li>
+<ul>
+<li> <em>As it became increasingly clear that platform economies such as Uber were accelerating precaritisation, i realised the potential of platform cooperatives to undercut and reverse this trend. I reasoned that cooperative industries need a universal platform, instead of competing in vertical markets against private incumbents.</em></li>
+<li> <em>I saw that a foundational requirement for general platform cooperativism is personal data ownership. I saw that another requirement was physically locating servers in the communities they serve, for multiple reasons. I realised the solution was to combine the previous work on Personal Servers with local meshnets. I named this Social Mesh.</em></li>
+<li> <em>Realising that for horizontal platform cooperativism to succeed, state backing was needed to counteract the momentum of financialisation and regulatory arbitrage, i proposed Social Mesh as a Finnish government service to <a href="https://www.businessfinland.fi/en">Business Finland</a> (then called Tekes), the Finnish public innovation incubator. Tekes responded to the proposal seriously and encouraged me to come back with a detailed and fundable proposal.</em></li>
+<li> <em>With the release of Solid, i began adapting Social Mesh to use Solid instead of the previous form of Personal Servers</em></li>
+<li> <em>In 2018, i forked Social Mesh into &#8216;Pod Zero&#8217; (see below)</em></li>
+</ul>
+<li><a href="https://www.dropbox.com/s/u407tk4yxxnqxhs/Finnish_Social_Mesh.pdf?dl=0">project summary PDF</a></li>
+</ul>
+</ul><br/>
 
-</dd>
-</dl>
-</section>
+<p><li> <strong><a href="https://github.com/peergen/peergen">Peergen</a></strong> - 2017-ongoing
+<ul>
+<li> Peergen is a system of personal datastores using Solid and Consolid that makes the individual the primary researcher over their own healthdata
+<li>In biomedical terms, Peergen is a system for <strong><em>N-of&#8211;1 personal -omics at scale, in which feedback loops between data, interpretation, and patient are not avoided, but embraced</em></strong></li>
+<li><em>Conception</em></li>
+<ul>
+<li> <em>Working for a decade on projects collecting genomic data from Finnish citizens, such as <a href="https://kardiokompassi.fi/">Kardiokompassi</a> and <a href="http://www.digitalhealthrevolution.fi/">Digital Health Revolution</a>, and working adjacent to the Finnish national genome project, i experienced the many problems and challenges faced by genomic health research and translation. Working with Solid and Solid-like projects over the same years, i saw multiple ways in which personal data vaults cut through these obstacles.</em></li>
+</ul>
+<li> Peergen extends the <a href="https://www.dropbox.com/s/moq835dgih3r0go/Personal_Servers_pilot.pdf?dl=0">Personal Health Servers pilot</a> begun in 2012
+<li> <a href="https://www.dropbox.com/s/7umn4vhhmgycvt5/Peergen_Finngen.pdf?dl=0">project description PDF</a> </li>
+</ul><br/></p>
 
-<br/><br/>
+<p><li> <strong><a href="https://github.com/podzero/podzero">Pod Zero</a></strong> - 2017-ongoing
+<ul>
+<li> Pod Zero is a personal data vault architecture, built using Solid and Consolid, that interprets users as autonomous agents in a formally open web, as a form of political-economic self-organisation <strong><em>designed to be formally commensurate to the cascade of negative synergies around climate change</em></strong> </li>
+<ul>
+<li> <em>While the complexity of this cascade of shocks is formally beyond the capacity of conventional institutional design, an agent-based mode of dynamic social organisation using Solid is formally capable of addressing this complexity</em></li>
+<li> In practise, this means:
+<ul>
+<li> <em>developing the open web as a critical component enabling emergent adaptation to climate change</em></li>
+<li> <em>providing humans with the legal status and functional capabilities of autonomous agents in a formally open web</em></li>
+<li> <em>accelerating the widespread adoption of the Solid platform over commercial silos for personal and organisational data</em></li>
+</ul>
+</ul>
+<li> <em>Conception</em>
+<ul>
+<li> <em>As i was adapting the Social Mesh project above to use Solid, the political-economic stability of the US and UK entered accelerated decline, while the EU showed worrying signs. At the same time, the threat climate change poses to the intl. order and human rights became undeniable. I saw the need to expand the Social Mesh design of personal data + meshnets, to address:</em></li>
+<ul>
+<li> <em>human rights and the UN&#8217;s SDGs from a trans-national perspective (since nations are proving incapable of honoring these)</em></li>
+<li> <em>larger scales of political-economic organisation, such as trans-national resource distributions and supply chains</em></li>
+</ul>
+<li> <em>Pod Zero explores how the Solid architecture can address these larger scales</li>
+<li> Because it centers on human rights, this project is named Pod Zero, the Solid communities&#8217; term for the most local and personal form of data vault</em></li>
+</ul>
+<li> <a href="https://www.dropbox.com/s/tascpusciszplhd/Pod_Zero-MByrne-wp3.pdf?dl=0">project description PDF</a> </li>
+</ul><br/></p>
 
-            <ul about="http://neuroplastic.github.io/#i">
-                <li><a rel="foaf:interest" href="https://neuroplastic.github.io/To_Save_The_Republic.html" target="_blank">To Save the Republic - Nov. 11, 2020</a></li><br/>
-                <li><a rel="foaf:interest" href="https://neuroplastic.github.io/Gaian_Platform.html" target="_blank">The Gaian Platform for Effective Response to Climate Change - Aug. 11, 2020</a></li><br/>    
-                <li><a rel="foaf:interest" href="https://neuroplastic.github.io/climate_social_contract_2020.html" target="_blank">The open web in the implementation of real adaptation to climate change - Dec. 30, 2019</a></li><br/>
-                 <!-- li><a rel="foaf:interest" href="https://neuroplastic.github.io/Global_Biospheric_Defense.html" target="_blank">Global Biospheric Defense - Aug. 10, 2020</a></li><br/> 
-                 <li><a rel="foaf:interest" href="https://neuroplastic.github.io/collective_voting.html" target="_blank">Democracy under Climate Change - Aug. , 2020</a></li><br/> 
-                 <li><a rel="foaf:interest" href="https://neuroplastic.github.io/Voluntary_population_control.html" target="_blank">Voluntary population control - Aug. 15, 2020</a></li><br/> 
-                 <li><a rel="foaf:interest" href="https://neuroplastic.github.io/God_has_returned.html" target="_blank">God has returned (a scientific paper) - Aug. 14, 2020</a></li><br/--> 
-                <li><a rel="foaf:interest" href="https://neuroplastic.github.io/class_based_societies.html" target="_blank">Class-based societies are self-destructing - July 8, 2020</a></li><br/>                
-            	<li><a rel="foaf:interest" href="https://neuroplastic.github.io/Replatform_the_US_Constitution.html" target="_blank">Deplatform the illegitimate executive, replatform the US Constitution - May 29, 2020</a></li><br/>
-<br/>
-            	<li><a rel="foaf:interest" href="https://neuroplastic.github.io/Wolbachia_for_humans.html" target="_blank">SARS-Cov-2 is Wolbachia for humans - July 1, 2020</a></li><br/>
-            	<li><a rel="foaf:interest" href="https://neuroplastic.github.io/Statement_X.html" target="_blank">Statement X: re. SARS-CoV-2 and Society - July 6, 2020</a></li><br/>
-            	<li><a rel="foaf:interest" href="https://twitter.com/mylesbyrne/status/1293135652284960773" target="_blank">SARS-Cov-2 Risk Assessment - June 30, 2020</a></li><br/>
+<p><li> <strong><a href="https://github.com/Umw3lt/umwelt">Umwelt</a></strong> - 2020-ongoing
+<ul>
+<li> Umwelt is <strong><em>a ladder of scientific communications, including VR and AR, for highly integrated remote-working research cultures</em></strong>
+<ul>
+<li> not a &#8216;VR&#8217; project, but a project to put VR in the right relation to other modes of communication and collegiality</li>
+</ul>
+<li><em>Conception</em>
+<ul>
+<li> <em>Remote work is here to stay, but by itself is only worsening alarming trends of declining mental, physical, and social health</em></li>
+<li> <em>My collaborator has run a cancer research lab and participated in administration of cancer science at the EU level since 2009. Together, we have been working on how to help her colleagues and students maintain personal and social health, while doing cutting-edge science.
+To this end, we began developing methods for instilling highly integrated remote-working research culture through a ladder of scientific communications, including VR and AR, ca. 2018</em></li>
+<li> <em>We began testing these methods when we responded to the pandemic by working remotely, from a cabin on an island with no running water or plumbing. We find that applying <a href="https://en.wikipedia.org/wiki/Albert_Borgmann">Albert Borgmann&#8217;s Focal philosophy</a>, situating scientific and biomedical work and practise in traditional country living, can powerfully and economically balance the stressors of intense online presence and academic competition, and 'literally' return science and STEM to its roots in natural philosophy and sustainable lifeways</em></li>
+<li> <em>We began testing uses of VR and AR with a VR event in December 2020 for the Institute Molecular Medicine Finland, with two more FIMM / FinnGen events upcoming.</em></li>
+</ul>
+<li> <a href="https://www.dropbox.com/s/ceqdrygscxfs1oi/Umwelt1.pdf?dl=0">project description PDF</a> </li>
+</ul><br/></p>
 
-            </ul>
-
-<!--h4>Areas of practise</h4>
-<br/>
-
-<a href="https://en.wikipedia.org/wiki/Interfaith_dialogue" target="_blank">Interfaith</a>
-            <ul about="http://neuroplastic.github.io/#i">
-                <li><a rel="foaf:interest" href="https://en.wikipedia.org/wiki/James_Carroll_(author)" target="_blank">Radical Catholicism</a></li> 
-                <li>∩</li>
-                 <li><a rel="foaf:interest" href="https://en.wikipedia.org/wiki/Walter_Wink" target="_blank">Liberation Christianity</a></li>
-                <li>∩</li>
-                <li><a rel="foaf:interest" href="https://en.wikipedia.org/wiki/Michael_Lerner_(rabbi)" target="_blank">Judaism</a></li>
-                <li>∩</li>
-                <li><a rel="foaf:interest" href="https://en.wikipedia.org/wiki/Ibn_Khaldun" target="_blank">Islam</a></li>
-                <li>∩</li>
-                <li><a rel="foaf:interest" href="https://en.wikipedia.org/wiki/Advaita_Vedanta" target="_blank">Hinduism</a></li>
-                <li><a rel="foaf:interest" href="images/sigil_lg.png" target="_blank">⤇</a></span></li>
-              </ul>
-
-<br/>
-<a href="https://en.wikipedia.org/wiki/Interfaith_dialogue" target="_blank">Interbeing</a>
-            <ul about="http://neuroplastic.github.io/#i">
-                <li><a rel="foaf:interest" href="http://en.wikipedia.org/wiki/Computer_science" target="_blank">Computer science</a></li> 
-                <li>∩</li>
-                 <li><a rel="foaf:interest" href="http://en.wikipedia.org/wiki/Biology" target="_blank">Biology</a></li>
-                <li>∩</li>
-                <li><a rel="foaf:interest" href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy</a><span class="go_topic"><a href="" title="go to philo articles"><i class="fa fa-arrow-circle-o-right"></i></a></span></li>
-                <li>∩</li>
-                <li><a rel="foaf:interest" href="https://en.wikipedia.org/wiki/Cognitive_science" target="_blank">Cognitive Science</a><span class="go_topic"><a href="" title="go to neuropsych articles"><i class="fa fa-arrow-circle-o-right"></i></a></span></li>
-                <li>∩</li>
-                <li><a rel="foaf:interest" href="http://en.wikipedia.org/wiki/Semantic_Web" target="_blank">semantic Web</a><span class="go_topic"><a href="" title="go to semweb articles"><i class="fa fa-arrow-circle-o-right"></i></a></span></li>
-                <li><a rel="foaf:interest" href="images/sigil_lg.png" target="_blank">⤇</a></span></li>
-            </ul>
-  <!-- img rel="foaf:img" typeof="foaf:Image" property="rdfs:label" content="Myles's areas of work" src="images/sigil_sm.png" alt="[Myles Byrne's WebID QR-code]" class="u-photo"/-->
-
-<br/><br/>
-
-<!--section id="streams">
-    <dl>
-        <dt>Streams</dt>
-        <dd>
-        <li><a rel="me foaf:account" href="https://twitter.com/mylesbyrne/media" target="_blank">selected (visual) microposts</a> <span style="font-size: 8px;">(still called 'twitter' for a little while longer)</span></li><br/>
-         <li><a rel="me foaf:account" href="index.rdf" target="_blank">RDF</a><small><em>streaming coming soon</em></small></li>
-        <li><a rel="me foaf:account" href="https://neuroplastic.databox.me/profile/card#me" target="_blank">Linked Data/RDF</a></li >
-        </dd>
-    </dl>
-</section-->
-
-<!--
-<br/>
-
-<div class="container">
-
-<div class="none">
-<section id="contact">
-    <dl>
-        <dt>Preferred Contact</dt>
-        <dd>
-        <li><a rel="me foaf:account" href="https://en.wikipedia.org/wiki/David_Bohm" target="_blank"><small>gmail: bohmbohm</small></a></li>
-        </dd>
-    </dl>
-</section>
-</div>
-
-<br/><br/>
--->
-
-<section id="photography">
-    <dl>
-        <dt>Selected Photography</dt>
-        <dd>
-            <ul id="photography_list" about="http://neuroplastic.github.io/#i" class="xoxo">
-                <li><a rel="me foaf:account" href="https://photos.app.goo.gl/LYGA0L5CUPPuCbgG2" target="_blank">Himalayers: Finland-Nepal Biomedical Collaboration</a></li><br/>
-                <li><a rel="me foaf:account" href="https://photos.app.goo.gl/KQWMPEZXCihMdXGE3" target="_blank">Revised Theory of Cancer at KLI</a></li><br/> 
-                <li><a rel="me foaf:account" href="https://photos.app.goo.gl/EeJ5XteGQBisiowR9" target="_blank">Rishikesh 2019</a></li><br/>
-                <li><a rel="me foaf:account" href="https://photos.app.goo.gl/KTp6H9zgy3xB5akJ7" target="_blank">Lockdown Requiem: Mar.13 -> ?</a></li><br/>
-                <!--li><a rel="me foaf:account" href="https://goo.gl/photos/nKkjrDh1cqxd4VGHA" target="_blank">Hyperfinland</a></li-->
-            </ul>
-        </dd>
-    </dl>
-</section>
-
-<br/>
-
-<section id="accounts">
-    <dl>
-        <dt></dt>
-        <dd>
-            <ul id="account_list" about="http://neuroplastic.github.io/#i" class="xoxo">
-                <!-- li><a rel="me foaf:account" href="https://linkeddata.github.io/profile-editor/#/profile/view?webid=https:%2F%2Fneuroplastic.databox.me%2Fprofile%2Fcard%23me" target="_blank">Linked Data profile</a></li>
-                <li><a rel="me foaf:account" href="http://webappmarket.org/" target="_blank">Linked Data platform</a></li>             
-                <li><a rel="me foaf:account" href="http://solid-social.github.io/timeline/?date=recent&profile=https:%2F%2Fneuroplastic.databox.me%2Fprofile%2Fcard%23me" target="_blank">Solid-social</a></li>
-                <li><a rel="me foaf:account" href="https://onename.com/neuroplastic" target="_blank">Onename</a></li>
-                <br/>   
-                <li><a rel="me foaf:account" href="https://gitlab.com/u/neuroplastic" target="_blank">GitLab</a></li-->
-                <!--li><a rel="me foaf:account" href="https://bitbucket.org/account/user/neuroplastic/" target="_blank">bitbucket</a></li>
-                <br/-->
-                <li><a rel="me foaf:account" href="https://scholar.google.co.nz/citations?hl=en&user=ndSuI2gAAAAJ&view_op=list_works" target="_blank">Google Scholar</a></li>   
-                <br/>
-                <li><a rel="me foaf:account" href="http://orcid.org/0000-0002-8992-2452" target="_blank">Orcid</a></li>
-                <br/>
-                <li><a rel="me foaf:account" href="https://github.com/neuroplastic" target="_blank">GitHub</a></li>
-                <!--li><a rel="me foaf:account" href="https://plus.google.com/+MylesByrneGabriel" target="_blank">Google+</a></li-->
-            </ul>
-        </dd>
-    </dl>
-</section>
-
-<br/>
-
-<section id="QR_codes">
-<div class="container">
-<!--div class="none">
-            <address about="http://neuroplastic.github.io/#i" typeof="foaf:Person" id="i" class="h-card p-author">
-                <img rel="foaf:img" typeof="foaf:Image" property="rdfs:label" content="Myles's avatar" src="images/mb_avatar_bw.jpg" alt="[Myles Byrne's avatar]" class="u-photo" width="96" height="96"/>
-                <br/>
-                <a property="foaf:name rdfs:label" datatype="" rel="me foaf:homepage foaf:made" class="u-url u-uid p-name" href="http://neuroplastic.github.io/"><span property="foaf:givenName" class="p-given-name">Myles</span> <span property="foaf:familyName" class="p-family-name">Byrne</span></a>
-                <br/>
-                <span rel="foaf:mbox" resource="mailto:bohmbohm&#64;gmail&#46;com" class="u-email">bohmbohm&#64;gmail&#46;com
-                <br/> </span -->
-                <!--span property="foaf:nick" class="p-nickname">neuroplastic</span-->
-
-                <span rel="cert:key">
-                    <span about="http://neuroplastic.github.io/#cert" typeof="cert:RSAPublicKey" id="cert">
-                        <span property="cert:modulus" datatype="xsd:hexBinary" content="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDH9nRvPnFJFidaH6MByseWVG5JnOymHllh4srPXXrYtOV/PN4UuFWiIMiHYzm4C8QWHwL9TewYJFSZPg3hJ0sM7RK6/wjOqbSBeqh5qr+2EuY0Ytcl59FKmNSVnm+ZAVQTwNAsfc6gE8BiIeWAALEhEnUIDq9J+bJ2U4NU1Ic/QgUuAXQt6vQigx+0hvsLqW8DacOiOSzQgvyoFidkjBTCFYE+j44HaF4oQz/33nIJluqQCOgoJLvbKbdMIhzmcQzuD69WvltXNFokafuLLIj++1iV5uviyWmyfcM5pFwBqK7+zcw7wAsfSp/SbLFrHsDTbny7rGDPGC8bEXcbBoJYPCBU7qm0HszRfY5C/eRR314gEbRpU4O4Co/v4Gb+5AQpT+9nradXY+FeOOA2B/pZPO5tglsWik3fpzwRwW8+a7AIpbZDD9UemcY8Koc6g8dhVzUj68tXTVWELMAlJNRahisZh+HCSTKqMvJ3LtSEGQTkgel27FpZBl9Q6WcAx35uEcRh4dl3KbuM8WvWlD4pQyBDq73iPWsDR/Ne0gwXcsPiXTaium1azjUlcl2PfRAHvNhMDSUzIwd+BnVrhK185YtTWwF8zk4gLYlR6o4T9Z6JS0rlYLzr/butwGWNDWesNkuyAcK0lViIY+5zaglYQ5s+RBi1xWB1utYuO54CJw== bohmbohm@gmail.com"></span>
-                        <span property="cert:exponent" datatype="xsd:nonNegativeInteger" content=""></span>
-                    </span>
-                </span>
-                <span rel="rdfs:seeAlso" resource="http://neuroplastic.github.io/cv"></span>
-                <span rel="rdfs:seeAlso" resource="http://neuroplastic.github.io/library"></span>
-                <span rel="rdfs:seeAlso" resource="http://neuroplastic.github.io/contacts"></span>
-                <span rel="pimspace:storage" resource="https://neuroplastic.databox.me/"></span>
-                <span rel="pimspace:preferencesFile" resource="https://neuroplastic.databox.me/Preferences/prefs.ttl"></span>
-                <span rel="sterms:timeline" resource="https://neuroplastic.databox.me/Timeline/"></span>
-                <span rel="sterms:inbox" resource="https://neuroplastic.databox.me/Inbox/"></span>
-            <!--/address>
-</div-->
-
-<div class="none">
-<img rel="foaf:img" typeof="foaf:Image" property="rdfs:label" content="Myles's WebID QR-code" src="images/mb_webID.png" alt="[Myles Byrne's WebID QR-code]" class="u-photo" width="96" height="96"/>
-<br/><a rel="me foaf:account" href="https://linkeddata.github.io/profile-editor/#/profile/view?webid=https:%2F%2Fneuroplastic.databox.me%2Fprofile%2Fcard%23me" target="_blank">
-Linked Data profile</a></li>
-</div>
-<!-- div class="none">
-<img rel="foaf:img" typeof="foaf:Image" property="rdfs:label" content="Myles's BTC QR-code" src="https://neuroplastic.databox.me/Public/mb_images/mb_btc.png" alt="[Myles Byrne's BTC QR-code]" class="u-photo" width="96" height="96"/>
-<br/><a rel="me foaf:account" href="https://onename.com/neuroplastic" target="_blank">
-Bitcoin address<br/><span style="font-size: 7px;">17zaVxTLJrR4WP62PKzRcJhVZvZAyn1ym3</span></a></li>
-</div-->
-<div class="none">
-<img rel="foaf:img" typeof="foaf:Image" property="rdfs:label" content="Myles's ORCID QR-code" src="images/mb_orcid.png" alt="[Myles Byrne's ORCID QR-code]" class="u-photo" width="96" height="96"/>
-<br/><a rel="me foaf:account" href="http://orcid.org/0000-0002-8992-2452" target="_blank">
-ORCID</a></li>
-</div>
-
-</div>
-
-</section>
-
-<!-- blockquote class="epigraph" cite="https://en.wikipedia.org/wiki/Wendell_Berry">
-  <p id="berrygraph">
-Heavenly Muse, Spirit who brooded on<br>
-the world and raised it shapely out of nothing,<br>
-Touch my lips with fire and burn away<br>
-All dross of speech, so that I keep in mind<br>
-The truth and end to which my words now move<br>
-In hope. Keep my mind within that Mind<br>
-Of which it is a part, whose wholeness is<br>
-The hope of sense in what I tell. And though<br>
-I go among the scatterings of that sense,<br>
-The members of its worldly body broken,<br>
-Rule my sight by vision of the parts<br>
-Rejoined. And in my exile’s journey far<br>
-From home, be with me, so I may return.<br>
-  </p>
-  <footer>
-    <a href="https://en.wikipedia.org/wiki/Wendell_Berry" target="_blank">
-      - Wendell Berry
-    </a>
-  </footer>
-</blockquote -->
-
-
-<br/>
- <span id="license"><a rel="license cc:license" href="http://creativecommons.org/licenses/by-sa/4.0/" title="View details of the license of this site, courtesy of Creative Commons." target="_blank">License</a></span> | <span id="license"><a rel="donations" href="https://www.patreon.com/neuroplastic?fan_landing=true" title="Patreon" target="_blank">Patreon</a></span><br/>
-<!-- a href="https://flattr.com/submit/auto?fid=jexe9v&url=http%3A%2F%2Fneuroplastic.github.io" target="_blank"><img src="//button.flattr.com/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" height="13px" width="60px"></a-->
+<p><li> <strong><a href="https://github.com/neuroplastic/Finnish_Solid_Hub">Finnish Solid Hub</a></strong> - 2021 proposal
+<ul>
+<li> a proposed project to provide Solid services for Finnish institutions and organisations, to provide Solid education in Finland and the Nordics, and to develop Solid services for other countries hosted in Finland
+<li> <a href="https://www.dropbox.com/s/2t9l4wn18st7h6o/Finnish_Solid_Hub_proposal.pdf?dl=0">project description PDF</a>
+</ul></p>
+</ol>
+<!-- ##END MARKED WRAPPER## -->
+    </div>
 
 
 
-</article>
+<script>(function(factory){if(typeof define==="function"&&define.amd){define("bidi_helpers",[],factory)}else{window.bidi_helpers=factory()}})(function(){var module={};module.Dir={RTL:-1,UNKNOWN:0,LTR:1};module.Format={LRE:"\u202A",RLE:"\u202B",PDF:"\u202C",LRM:"\u200E",RLM:"\u200F"};module.ltrChars_="A-Za-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02B8\u0300-\u0590\u0800-\u1FFF\u2C00-\uFB1C\uFE00-\uFE6F\uFEFD-\uFFFF";module.rtlChars_="\u0591-\u07FF\uFB1D-\uFDFF\uFE70-\uFEFC";module.ltrDirCheckRe_=new RegExp("^[^"+module.rtlChars_+"]*["+module.ltrChars_+"]");module.ltrCharReg_=new RegExp("["+module.ltrChars_+"]");module.hasAnyLtr=function(text){return module.ltrCharReg_.test(text)};module.rtlDirCheckRe_=new RegExp("^[^"+module.ltrChars_+"]*["+module.rtlChars_+"]");module.rtlRe=module.rtlDirCheckRe_;module.isRtlText=function(text){return module.rtlDirCheckRe_.test(text)};module.isLtrText=function(text){return module.ltrDirCheckRe_.test(text)};module.isRequiredLtrRe_=/^http:\/\/.*/;module.hasNumeralsRe_=/\d/;module.estimateDirection=function(text,detectionThreshold){var rtlCount=0;var totalCount=0;var hasWeaklyLtr=false;var tokens=text.split(/\s+/);for(var i=0;i<tokens.length;i++){var token=tokens[i];if(module.isRtlText(token)){rtlCount++;totalCount++}else{if(module.isRequiredLtrRe_.test(token)){hasWeaklyLtr=true}else{if(module.hasAnyLtr(token)){totalCount++}else{if(module.hasNumeralsRe_.test(token)){hasWeaklyLtr=true}}}}}return totalCount==0?(hasWeaklyLtr?module.Dir.LTR:module.Dir.UNKNOWN):(rtlCount/totalCount>detectionThreshold?module.Dir.RTL:module.Dir.LTR)};return module});(function(factory){if(typeof define==="function"&&define.amd){define("bidiweb",["bidi_helpers"],factory)}else{window.bidiweb=factory(bidi_helpers)}})(function(bidi_helpers){var module={};var IProcessor={makeRtl:function(element){},makeLtr:function(element){}};var css_processor=function(classes){return{makeRtl:function(element){element.classList.add(classes.rtl)},makeLtr:function(element){element.classList.add(classes.ltr)}}};var style_processor=function(falign){return{makeRtl:function(element){element.style.direction="rtl";if(falign){element.style.textAlign="right"}},makeLtr:function(element){element.style.direction="ltr";if(falign){element.style.textAlign="left"}}}};module.processors={css:css_processor,style:style_processor};var nodeListMock=function(node){var list=[node];list.item=function(i){return list[i]};return list};module.process=function(query,processor){var elements;if(query instanceof NodeList){elements=query}else{if(query instanceof Node){elements=nodeListMock(query)}else{elements=document.querySelectorAll(query)}}module.process_elements(elements,processor);return elements};module.process_elements=function(elements,processor){for(var index=0;index<elements.length;index++){var element=elements.item(index);var text=element.textContent||element.value||element.placeholder||"";var dir=bidi_helpers.estimateDirection(text,0.4);if(dir==bidi_helpers.Dir.RTL){processor.makeRtl(element)}else{if(dir==bidi_helpers.Dir.LTR){processor.makeLtr(element)}}}};module.process_css=function(query,classes){var proc=module.processors.css(classes);return module.process(query,proc)};module.process_style=function(query,falign){var proc=module.processors.style(falign);return module.process(query,proc)};module.style=function(query){return module.process_style(query,true)};module.css=function(query){return module.process_css(query,{rtl:"rtl",ltr:"ltr"})};module.htmlToElement=function(html){var container=document.createElement("div");container.innerHTML=html;return container};module.html_css=function(html){var container=module.htmlToElement(html);var nodes=container.querySelectorAll("*");module.css(nodes);return container.innerHTML};module.html_style=function(html){var container=module.htmlToElement(html);var nodes=container.querySelectorAll("*");module.style(nodes);return container.innerHTML};return module});</script>
 
-</div>
-</main>
-         
-<!-- menu id="document-menu" class="do"><button class="show" title="Open Menu">☰</button><header></header><div></div><footer><dl><dt>About</dt><dd id="about-dokieli"><a target="source-dokieli" href="https://github.com/linkeddata/dokieli">dokieli</a></dd><dd id="about-linked-research"><a target="source-linked-research" href="https://github.com/csarven/linked-research">Linked Research</a></dd></dl></footer></menu -->
-
-</body></html>
+</body>
+</html>
