@@ -1,36 +1,35 @@
 <!doctype html>
 <!--
-          _         _               _       
-        /\ \     /\ \             /\ \     
-       /  \ \   /  \ \           /  \ \    
-      / /\ \ \ / /\ \ \         / /\ \ \   
-     / / /\ \_\\/_/\ \ \       / / /\ \_\  
-    / / /_/ / /    / / /      / / /_/ / /  
-   / / /__\/ /    / / /      / / /__\/ /   
-  / / /_____/    / / /  _   / / /_____/    
- / / /          / / /_/\_\ / / /           
-/ / /          / /_____/ // / /            
-\/_/           \________/ \/_/             
-        _            _             _       
-       / /\         /\ \         /\ \      
-      / /  \       /  \ \       /  \ \     
-     / / /\ \__   / /\ \ \     / /\ \ \    
-    / / /\ \___\ / / /\ \ \   / / /\ \ \   
-    \ \ \ \/___// / /  \ \_\ / / /  \ \_\  
-     \ \ \     / / /   / / // / /    \/_/  
- _    \ \ \   / / /   / / // / /           
-/_/\__/ / /  / / /___/ / // / /________    
-\ \/___/ /  / / /____\/ // / /_________\   
- \_____\/   \/_________/ \/____________/   
-
+    ...     ..      ..                        ..               .x+=:.     
+  x*8888x.:*8888: -"888:     ..         x .d88"               z`    ^%    
+ X   48888X `8888H  8888    @L           5888R                   .   <k   
+X8x.  8888X  8888X  !888>  9888i   .dL   '888R        .u       .@8Ned8"   
+X8888 X8888  88888   "*8%- `Y888k:*888.   888R     ud8888.   .@^%8888"    
+'*888!X8888> X8888  xH8>     888E  888I   888R   :888'8888. x88:  `)8b.   
+  `?8 `8888  X888X X888>     888E  888I   888R   d888 '88%" 8888N=*8888   
+  -^  '888"  X888  8888>     888E  888I   888R   8888.+"     %8"    R88   
+   dx '88~x. !88~  8888>     888E  888I   888R   8888L        @8Wou 9%    
+ .8888Xf.888x:!    X888X.:  x888N><888'  .888B . '8888c. .+ .888888P`     
+:""888":~"888"     `888*"    "88"  888   ^*888%   "88888%   `   ^"F       
+    "~'    "~        ""            88F     "%       "YP'                  
+                                  98"                                     
+                                ./"                                       
+                               ~`                                         
+<!- CREDITS
+Linked Data: SirTimBL, CSARVEN and SOLID 
+CSS: https://edwardtufte.github.io/tufte-css/
+ORCID: MFenner, GThorrison
+RSS: Dave Winer
+...
 by Myles Byrne
 https://en.wikipedia.org/wiki/Myles_Byrne
 https://neuroplastic.github.io/
-https://twitter.com/mylesbyrne
+https://twitter.com/pod_zer0
 Nov.11 2020
 font: Computer Modern by Andy Panov
 --> 
 <html>
+
   <head>
       <title>Myles Byrne</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -38,10 +37,22 @@ font: Computer Modern by Andy Panov
     <link rel="stylesheet" href="stylesheets/serif/style.css" />
     <link rel="stylesheet" href="stylesheets/style.css" />
   </head>
-  <body>
+
+  <body about="[this:]" id="home" typeof="foaf:PersonalProfileDocument" class="h-feed" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ vcard: http://www.w3.org/2006/vcard/ns# pimspace: http://www.w3.org/ns/pim/space# cc: http://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# schema: https://schema.org/ sioc: http://rdfs.org/sioc/ns# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# cal: http://www.w3.org/2002/12/cal/ical# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# org: http://www.w3.org/ns/org# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: http://www.w3.org/ns/activitystreams# sterms: http://www.w3.org/ns/solid/terms# this: http://neuroplastic.github.io/">
+    <span rel="foaf:primaryTopic" resource="http://neuroplastic.github.io/#i"></span> 
     <div id=content>
  <div id="wrapper">
-      <center><h3>Myles Byrne</h3></center>
+      <center><h3><a href="https://en.wikipedia.org/wiki/Myles_Byrne" target="_blank">Myles Byrne</a></h3></center>
+      <!--blockquote class="epigraph" cite="https://en.wikipedia.org/wiki/William_Blake">
+ <p id="berrygraph">
+  'A fool that has persisted in his folly' - Wm Blake
+</p-->
+  <!--footer>
+    <a href="https://en.wikipedia.org/wiki/William_Blake">
+      - William Blake
+    </a>
+  </footer>
+</blockquote-->
 <table style="border: none;">
 <tr style="border: none; width: 100%;">
 <td style="border: none; width: 550px;">
